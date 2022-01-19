@@ -7,6 +7,10 @@
 html {
   font-size: 62.5%;
 }
+main {
+  height: 200px;
+  width: 500px;
+}
 .div__container {
   width: 100vw;
   height: 100vh;
@@ -21,7 +25,7 @@ html {
   background-color: #002152 ;
   margin: auto;
   text-align: center;
-  border-radius: 5rem;
+  border-radius: 2rem;
   font-size: 1.8rem;
   
 }
@@ -34,8 +38,8 @@ html {
 }
 .div__parrafo {
    text-align: left;
-   padding-left: 3rem;
-   font-size: 1.8rem;
+   margin: 2rem 5rem;
+   font-size: 2.5rem;
 }
 .div__parrafo p:nth-child(1) {
    color: white;
@@ -52,14 +56,14 @@ figure img {
   grid-template-columns: 10px auto 10px auto;
   margin-bottom: 24px;
   align-items: center;
-  gap: 35px;
+  gap: 40px;
 }
 .div__descripcion figure img {
   width: 20px;
   height: 20px;
   border-radius: 20px;
   object-fit: cover;
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 .div__descripcion p:nth-child(2) {
   display: block;
@@ -70,18 +74,17 @@ figure img {
 .div__descripcion p:nth-child(4) {
   display: block;
   text-align: left;    
-  padding: 2rem;
+  padding: 5rem;
   color: white;
 }
-footer {
+.div__contacto  {
+  margin: 5rem;
   display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  gap: 0;
+  grid-template-columns: 100px 100px auto;
   border-top: 1px solid gray;
   padding: 20px;
 }
-footer img {
+.div__contacto img {
   width: 50px;
   height: 50px;
   border-radius: 50px ;
@@ -91,9 +94,15 @@ footer img {
   border-right: 2px solid red;
   margin-left: 2rem
 }
-footer p {
-  display: block;
+.primero {
+  padding-top: 1rem;
+  display: inline-block;
   text-align: left;   
-  color: white;
-  margin-right: 10rem;
+  color: rgb(27, 24, 212);
+}
+.segundo {
+  padding-top: 1rem;
+  display: inline-block;
+  text-align: left;   
+  color: wheat;
 }
