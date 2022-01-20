@@ -5,23 +5,23 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;  
+  background-color: #081730 ;
 }
 main {
-  height: 200px;
-  width: 500px;
+  height: 150px;
+  width: 400px;
 }
 .div__container {
   width: 100vw;
   height: 100vh;
-  background-color: #081730 ;
   font-family: 'Outfit', sans-serif;
   
   display: flex;
 }
 .div__container__head {
-  height: 85rem;
-  width: 50rem;
+  height: 60rem;
+  width: 40rem;
   background-color: #002152 ;
   margin: auto;
   text-align: center;
@@ -30,16 +30,18 @@ main {
   
 }
 .div__img img{
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   margin: 30px auto;
   object-fit: cover;
   border-radius: 1.5rem;
 }
 .div__parrafo {
-   text-align: left;
-   margin: 2rem 5rem;
-   font-size: 2.5rem;
+  width: 35rem;
+  text-align: left;
+  text-align: justify;
+  margin: 1rem;
+  padding-left: 4rem;
 }
 .div__parrafo p:nth-child(1) {
    color: white;
@@ -53,46 +55,46 @@ figure img {
 }
 .div__descripcion {
   display: grid;
-  grid-template-columns: 10px auto 10px auto;
-  margin-bottom: 24px;
+  grid-template-columns: 10px 150px 9px auto;
   align-items: center;
-  gap: 40px;
+  gap: 27px;
+  margin-left: 3rem;
 }
 .div__descripcion figure img {
   width: 20px;
   height: 20px;
   border-radius: 20px;
   object-fit: cover;
-  margin-left: 6rem;
+  margin-left: 2rem;
 }
 .div__descripcion p:nth-child(2) {
   display: block;
   text-align: left;
-  padding: 3rem;
   color: cyan;
+  padding: 2rem 1rem;
 }
 .div__descripcion p:nth-child(4) {
   display: block;
-  text-align: left;    
-  padding: 5rem;
-  color: white;
+    text-align: left;
+    padding: 1rem;
+    color: white;
 }
 .div__contacto  {
-  margin: 5rem;
+  margin: 3rem;
   display: grid;
-  grid-template-columns: 100px 100px auto;
+  grid-template-columns: 64px 100px auto;
   border-top: 1px solid gray;
-  padding: 20px;
+  padding: 15px;
 }
 .div__contacto img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px ;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
   border-top: 2px solid red;
   border-bottom: 2px solid red;
   border-left: 2px solid red;
   border-right: 2px solid red;
-  margin-left: 2rem
+  margin-left: 1rem;
 }
 .primero {
   padding-top: 1rem;
